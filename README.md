@@ -1,0 +1,1 @@
+# fun-fri.github.io
