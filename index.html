@@ -74,14 +74,34 @@
         .white {
             color: white;
         }
+        
+        .dark-purple {
+            color: #5a0080;
+        }
+
+        .custom-search-bar:hover {
+            box-shadow: 0px 0px 15px 4px #5a0080;
+        }
+
+        .nav-button:hover {
+            box-shadow: 0px 0px 15px 4px #5a0080;
+        }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Roboto:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1 id="header-title" onclick="window.location.href='https://unblockzone.github.io/'">
-            <span class="white">FUN-FRI GAMES</span><span class="red"></span>
+            <span class="white">FUN-FRI</span> <span class="dark-purple">GAMES</span>
         </h1>
     </header>
+
+    <div class="subtitle-container">
+        <div class="subtitle" id="subtitle">
+            <span class="white">FUN-FRI</span>
+            <span class="dark-purple">GAMES</span>
+        </div>
+        <input type="text" id="customSearchBar" class="custom-search-bar" placeholder="Search..." onkeypress="handleSearch(event)">
+    </div>
 </body>
 </html>
