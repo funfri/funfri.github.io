@@ -1,1 +1,3 @@
-# fun-fri.github.io
+  FunFri
+
+  The best unblocked games in 2025!
